@@ -23,11 +23,11 @@ School of Artifical Intelligence & Automation, Huazhong University of Science & 
 * 2019-2022 : Control Science & Engineering, School of Artifical Intelligence & Automation, Huazhong University of Science & Technology
 
 ## Awards
-* 2017.11, [China Undergraduate Mathematical Contest in Modeling, First prize](http://jingwang.site/file/doc/2017-CUMCM.pdf)
-* 2017.12, [Huazhong Agricultural University Sixth Programming Contest, Second Prize](http://jingwang.site/file/doc/2017-HZAU-Programming-Contest.pdf)
-* 2019.06, [Huazhong Agricultural University Excellent Graduate](http://jingwang.site/file/doc/2019-HZAU-Excellent-Graduate.pdf)
-* 2019.09, [Huazhong Agricultural University Excellent Bachelor's Degree Thesis](http://jingwang.site/file/doc/2019-HZAU-Excellent-Bachelor’s-Degree-Thesis.pdf)
-* 2019.09, [National Innovation Contest for Intelligent Construction and Management, First prize](http://jingwang.site/file/doc/2019-ICICM.pdf)
+* 2017.11, [China Undergraduate Mathematical Contest in Modeling, First prize](http://storage.jingwang.site/doc/2017-CUMCM.pdf)
+* 2017.12, [Huazhong Agricultural University Sixth Programming Contest, Second Prize](http://storage.jingwang.site/doc/2017-HZAU-Programming-Contest.pdf)
+* 2019.06, [Huazhong Agricultural University Excellent Graduate](http://storage.jingwang.site/doc/2019-HZAU-Excellent-Graduate.pdf)
+* 2019.09, [Huazhong Agricultural University Excellent Bachelor's Degree Thesis](http://storage.jingwang.site/doc/2019-HZAU-Excellent-Bachelor’s-Degree-Thesis.pdf)
+* 2019.09, [National Innovation Contest for Intelligent Construction and Management, First prize](http://storage.jingwang.site/doc/2019-ICICM.pdf)
 
 ## Technical Experience
 * **Open Source**

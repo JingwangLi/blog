@@ -8,7 +8,7 @@ categories: Tools
 
 ## reveal.js和Markdown Preview的冲突
 上个部分提过，reveal-md渲染md时长公式无法显示的问题可以通过将字体改小解决。然而，在设置sublime的Markdown预览插件&mdash;Markdown Preview的时候却发现在reveal-md中显示正常的md文件出现了奇怪的斜线和括号：
-![](http://jingwang.site/file//img/20191217135319.png)
+![](http://storage.jingwang.site/img/20191217135319.png)
 
 md文件如下：
 ```

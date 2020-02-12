@@ -98,3 +98,16 @@ fork的仓库默认关闭issues，需要在`Setting->Options->Features`中手动
 
 ## `fatal: unable to access 'http://github.com/xxx/xxx.git/': Recv failure: Connection was reset`
 `git push`时出现上述错误，不是网络问题，删除原仓库重新克隆即可。
+
+## `git push -f`
+`git push`的时候经常会遇到如下错误：
+```
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/JingwangLi/blog'
+```
+
+一般来讲，这时候要将远程仓库pull下来和本地仓库merge之后再push，但是如果是个人开发，直接`git push -f`方便很多。
+
+## `Changes not staged for commit`
+我出现该错误的原因是父文件夹`git init`时其中一个子文件夹已经有`.git`文件夹，将子文件夹中的`.git`文件夹删去即可。
+

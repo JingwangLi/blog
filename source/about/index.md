@@ -42,9 +42,6 @@ School of Artifical Intelligence & Automation, Huazhong University of Science & 
      * SQL
      * Shell
 
-## Skateboarding
-* Ollie
-
 ## Footmarks
 <div id="myMap" style="width: 100%;height:600px;"></div>
 <script type="text/javascript" src="/js/echarts.min.js"></script>

@@ -9,6 +9,8 @@
     <% Object.keys(theme.social).forEach(function(key) { %>
         <% if (key == 'Email'){ %>
           <li><a href="mailto:<%= theme.social[key] %>" title="<%=key.trim()%>"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        <% } else if (key == 'Zhihu' || key == 'Douban'){ %>
+          <li><a href="<%= theme.social[key] %>" title="<%=key.trim()%>"><i class="fa iconfont icon-<%= key.toLowerCase() %>" aria-hidden="true"></i></a></li>
         <% } else {%>
           <li><a href="<%= theme.social[key] %>" title="<%=key.trim()%>"><i class="fa fa-<%= key.toLowerCase() %>" aria-hidden="true"></i></a></li>
         <% }%>

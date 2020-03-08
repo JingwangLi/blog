@@ -81,8 +81,10 @@ widgets:
 # Key is the name of FontAwsome icon.
 # Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
 social:
-  Github: https://github.com/JingwangLi
   Email: JingwangLi@foxmail.com
+  Github: https://github.com/JingwangLi
+  Zhihu: https://www.zhihu.com/people/JingwangLi
+  Douban: https://www.douban.com/people/iLJW/
   # Twitter: https://twitter.com/JingwangLi
   # Facebook: https://www.facebook.com/jingwang1997
   # Instagram: https://www.instagram.com/jingwang.li

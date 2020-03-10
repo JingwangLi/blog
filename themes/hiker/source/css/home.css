@@ -88,7 +88,7 @@ html{
 }
 .navigater-list{
 	/*font-family: "Microsoft YaHei","微软雅黑",Arial,simsun,"宋体";*/
-    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Noto Serif SC", "Microsoft YaHei", "微软雅黑", sans-serif;
 	font-weight: bold;
 	font-size: 1.2em;
     /*text-transform: uppercase;*/
@@ -188,7 +188,7 @@ html{
 
 h1 {
     white-space:nowrap; /*强制title换行*/
-    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Noto Serif SC", "Microsoft YaHei", "微软雅黑", sans-serif;
     font-weight: bold;
     font-size: 30px;
     /*font-size: 25px;*/
@@ -198,7 +198,7 @@ h1 {
 h3 {
     white-space:nowrap; /*强制description换行*/
 	/*font-family: "futura-pt", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;*/
-    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Noto Serif SC", "Microsoft YaHei", "微软雅黑", sans-serif;
     font-weight: normal;
     font-size: 20px;
     /*font-size: 20px;*/
@@ -207,7 +207,7 @@ h3 {
 }
 #beautifont{
 	/*font-family: Microsoft JhengHei,Roboto,Helvetica,Arial,sans-serif;*/
-    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Noto Serif SC", "Microsoft YaHei", "微软雅黑", sans-serif;
 }
 canvas {
     top: 0;

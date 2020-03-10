@@ -5,5 +5,5 @@ h1 {
 }
 h1>a {
 	/*font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;*/
-    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Noto Serif SC", "Microsoft YaHei", "微软雅黑", sans-serif;
 }

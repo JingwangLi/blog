@@ -4,7 +4,7 @@
 	display: block;
 	float: right;
 	margin: 20px 0 0 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Noto Serif SC", "Microsoft YaHei", "微软雅黑", sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: .1px;
@@ -15,6 +15,7 @@
 	background: transparent;
 	z-index: 2;
 }
+
 .navbar-default .navbar-nav > li > a {
     color: #555;
     position: relative;

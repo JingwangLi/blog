@@ -68,7 +68,11 @@ tags:
 
 ## 多文件内查找替换
 之前听说过这个功能但是没用过，今天发现太方便了，如果之前用这个功能修改hiker主题简直省太多功夫了，快捷键`Ctrl + Shift + F`，具体可参考这篇文章`https://blog.csdn.net/weixin_42872302/article/details/81387302`。
-此外，发现Sublime还支持正则表达式，使用`Alt + R`切换正则匹配模式的开启/关闭
+此外，发现Sublime还支持正则表达式，使用`Alt + R`切换正则匹配模式的开启/关闭。
+
+更新：在输入法为微软拼音时会出现查找框无法调出的问题，切换输入法即可。
+
+更新：原来还可以搜索非文本文件内的内容，比如PDF文件，但只能确定文件中是否有搜索的内容而无法确定其在文件中的位置。
 
 ## 开启侧边栏
 `View->Side Bar->Show Side Bar`或者`Ctrl+K+B`。
@@ -258,3 +262,4 @@ Markdown Editing的github上并未发现自动补全的代码，而且发现subl
 ## 配置JavaScript运行环境
 
 >https://blog.csdn.net/tangxiujiang/article/details/78757468
+

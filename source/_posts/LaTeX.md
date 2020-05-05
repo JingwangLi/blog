@@ -11,11 +11,16 @@ date: 2019-04-17 19:53:32
 但是按上文设置好编译方式之后，在文中引用文献时一直报错：Package natbib Warning: There were undefined citations. 
 最后发现是BibTex文件命名的问题，文件名称中间一定不能出现空格，否则就会出现上文中的情况。
 
-## LaTeX-cwl无法使用dv
+## LaTeX-cwl无法使用
 LaTeX-cwl是一个用于代码提示的插件，但是安装之后却并未出现代码提示界面，尝试过remove后重新安装、disenable后重新enable、重启sublime均未解决此问题，更换其他电脑仍是如此，尚待解决。
+
+更新：LaTeX-cwl需要配合LaTeXing使用，所以需要安装LaTeXing。
+>https://packagecontrol.io/packages/LaTeX-cwl
 
 ## LaTeXTools无法通过Package Control安装
 两台电脑均无法通过Package Control插件安装LaTeXTools，只能手动安装，手动安装的具体步骤按照[官网文档](https://github.com/SublimeText/LaTeXTools)即可。其实，如果你之前安装过LaTeXTools，需要重装的话只需要将从官网下载的压缩包解压后放入指定文件夹中即可，因为卸载LaTeXTools之后相关设置并不会被清除。
+
+按理说如果输入类似'\begin{equation}'这样的命令，应该自动补一个'\end{equation}'，但LaTeX似乎没有该功能，有时间加一个吧。
 
 ## 公式无法实时预览
 今天发现公式突然无法实时预览了，鼠标放在公式末尾时报错：
@@ -108,3 +113,5 @@ LaTeX中`\nonumber`放在`\end{equation}`前后均可，但是在Markddown中若
 
 ## 多行公式对齐
 注意`&`只能在align或aligned中使用。
+
+如果

@@ -21,7 +21,9 @@ abbrlink: my-contribution-to-open-source-projects
     * Make the `$` can be paired automatically.
 * Python-Markdown
     * Show math in TOC correctly without external attribute.
-
+* LaTeXTools
+    * autopair '\begin{xx}'.
+    
 ## Done List
 * reveal.js
     * [Make equations can be numbered automatically.](https://github.com/hakimel/reveal.js/pull/2564) 

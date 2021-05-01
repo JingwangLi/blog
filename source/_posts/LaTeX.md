@@ -11,6 +11,9 @@ date: 2019-04-17 19:53:32
 但是按上文设置好编译方式之后，在文中引用文献时一直报错：Package natbib Warning: There were undefined citations. 
 最后发现是BibTex文件命名的问题，文件名称中间一定不能出现空格，否则就会出现上文中的情况。
 
+## BibTex文件不更新
+更改LaTeX的默认编译方式。
+
 ## LaTeX-cwl无法使用
 LaTeX-cwl是一个用于代码提示的插件，但是安装之后却并未出现代码提示界面，尝试过remove后重新安装、disenable后重新enable、重启sublime均未解决此问题，更换其他电脑仍是如此，尚待解决。
 

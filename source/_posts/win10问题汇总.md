@@ -92,5 +92,8 @@ Windows Registry Editor Version 5.00
 ![](http://storage.jingwang.site/img/20191215151236.png)
 而别的教程中对此项的数值并无设置所以导致失败，一般来说其初始值是“数值未设置”或者".md_auto_file"。右键建立其他类型文件的方法也是一样的，只需把.md改为.xx即可，注意，其实**不需要重启**即可生效。
 
+## 无法修改默认输入法
+由于搜狗输入法的流氓行为使得设置始终无法生效，卸载搜狗输入法即可。
 
-
+>https://sspai.com/post/56697
+>https://51.ruyo.net/15984.html

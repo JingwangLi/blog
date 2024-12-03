@@ -8,7 +8,7 @@ categories: Tools
 
 ## reveal.js和Markdown Preview的冲突
 上个部分提过，reveal-md渲染md时长公式无法显示的问题可以通过将字体改小解决。然而，在设置sublime的Markdown预览插件&mdash;Markdown Preview的时候却发现在reveal-md中显示正常的md文件出现了奇怪的斜线和括号：
-![](http://storage.jingwang.site/img/20191217135319.png)
+![](http://storage.jingwangli.com/img/20191217135319.png)
 
 md文件如下：
 ```
@@ -105,4 +105,4 @@ Markdown的标题有Setext和Atx两种写法：`===`相当于`#`，`---`相当�
 
 更新：与Markdown Preview的维护者交流后得知这并不是bug，而是Markdown的标准语法，我之前所认为正确的语法其实是不规范的，当然，这也说明很多渲染引擎的Markdown语法都不尽相同。Markdown的标准语法中，段落之间通过一个或多个空白行分开，段内换行需要在行末添加两个或多个空格，更具体的Markdown语法可参考[这里](https://daringfireball.net/projects/markdown/syntax)。因此我之前通过两个回车换行其实是换段，间距自然比正常大了不少。
 
-同时Markdown Preview的维护者也给了我一些解决该问题(即回车换行)的建议，在其建议下，我最终利用[nl2br](https://python-markdown.github.io/extensions/nl2br/)成功实现回车换行，具体步骤可参考[另一篇文章](https://jingwang.site/posts/sublime-text.html#Markdown-Preview)。
+同时Markdown Preview的维护者也给了我一些解决该问题(即回车换行)的建议，在其建议下，我最终利用[nl2br](https://python-markdown.github.io/extensions/nl2br/)成功实现回车换行，具体步骤可参考[另一篇文章](https://jingwangli.com/posts/sublime-text.html#Markdown-Preview)。

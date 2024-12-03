@@ -11,7 +11,7 @@ menu:
   Skateboarding: /skateboarding
   # SKateboard: /categories/skateboard
   # About: /about
-  About: https://jingwang.site
+  About: https://jingwangli.com
 rss: /atom.xml
 
 since: 2019
@@ -82,7 +82,7 @@ widgets:
 # Key is the name of FontAwsome icon.
 # Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
 social:
-  Email: JingwangLi@foxmail.com
+  Email: jingwangli@outlook.com
   Github: https://github.com/JingwangLi
   Zhihu: https://www.zhihu.com/people/JingwangLi
   Douban: https://www.douban.com/people/iLJW/
@@ -182,7 +182,7 @@ cnzz_siteid: 1260716016
 
 # busuanzi count
 # http://busuanzi.ibruce.info/
-show_busuanzi_view_counts: true
+show_busuanzi_view_counts: false
 
 
 # donation button
@@ -201,5 +201,3 @@ copyright:
 # If you put your blog on GitHub, it should look like:
 # https://github.com/username/blog/edit/master/source/_posts/
 post_edit_url:
-
-

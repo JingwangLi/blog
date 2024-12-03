@@ -9,10 +9,10 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "7.3.0"
   },
   "dependencies": {
-    "hexo": "./modified_node_modules/hexo.tar",
+    "hexo": "^7.3.0",
     "hexo-abbrlink": "^2.0.5",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.1.0",

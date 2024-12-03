@@ -12,7 +12,7 @@
         <% } else if (key == 'Zhihu' || key == 'Douban'){ %>
           <li><a href="<%= theme.social[key] %>" title="<%=key.trim()%>"><i class="fa iconfont icon-<%= key.toLowerCase() %>" aria-hidden="true"></i></a></li>
         <% } else {%>
-          <li><a href="<%= theme.social[key] %>" title="<%=key.trim()%>"><i class="fa fa-<%= key.toLowerCase() %>" aria-hidden="true"></i></a></li>
+          <!-- <li><a href="<%= theme.social[key] %>" title="<%=key.trim()%>"><i class="fa fa-<%= key.toLowerCase() %>" aria-hidden="true"></i></a></li> -->
         <% }%>
     <% }) %>
     </ul>
@@ -32,7 +32,7 @@
            <div class="middle"></div>
            <div class="right"></div>
         </div>
-        <a href="https://yan.jingwang.site" target="_blank">&nbsp;&nbsp;Yan Wang</a> -->
+        <a href="https://yan.jingwangli.com" target="_blank">&nbsp;&nbsp;Yan Wang</a> -->
 
         <div><p id="copyRightEn">Copyright &copy; <%= theme.since ||  (date(new Date(), 'YYYY')-1)%> - <%= date(new Date(), 'YYYY') %> <%= config.title || config.author %></div>
 
@@ -42,7 +42,7 @@
 				<%= __('site_pv') %> : <span id="busuanzi_value_site_pv"></span>
 		    </p>
   		   <% } else { %>
-  		   	<p id="copyRightCn"><%= __('right_reserved', config.author || config.title) %></p>
+  		   	<!-- <p id="copyRightCn"><%= __('right_reserved', config.author || config.title) %></p> -->
   		   <% } %>
 
 		</div>

@@ -24,14 +24,14 @@ comments: false
 <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=x2V7KanMxVA2GuK7oFHPOiGytFSXWoyN" ></script>
 <script type="text/javascript" defer=true>
     // 百度地图API功能
-    var data = [[114.419895, 30.513445, '华科南大门', 1, 'http://storage.jingwang.site/img/HUST-South-Gate-Square.jpg'],
-                [114.364555, 30.480067, '华农狮子山广场', 2, 'http://storage.jingwang.site/img/HZAU-Shizi-Mountain-Square.jpg'],
-                [114.417597, 30.497472, '保利广场', 3, 'http://storage.jingwang.site/img/Wuhan-Poly-Square.jpg']];
+    var data = [[114.419895, 30.513445, '华科南大门', 1, 'http://storage.jingwangli.com/img/HUST-South-Gate-Square.jpg'],
+                [114.364555, 30.480067, '华农狮子山广场', 2, 'http://storage.jingwangli.com/img/HZAU-Shizi-Mountain-Square.jpg'],
+                [114.417597, 30.497472, '保利广场', 3, 'http://storage.jingwangli.com/img/Wuhan-Poly-Square.jpg']];
     var map = new BMap.Map("map",  {enableMapClick:false});
     var point = new BMap.Point(114.419895,30.513445);
     map.centerAndZoom(point, 12)
     map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
-    var myIcon = new BMap.Icon("http://storage.jingwang.site/img/Skateboarding-Logo-48.png", new BMap.Size(40, 40), );
+    var myIcon = new BMap.Icon("http://storage.jingwangli.com/img/Skateboarding-Logo-48.png", new BMap.Size(40, 40), );
     var opts = {
                 width : 0,     // 信息窗口宽度
                 height: 0,     // 信息窗口高度

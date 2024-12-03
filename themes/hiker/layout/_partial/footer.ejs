@@ -12,7 +12,7 @@
         <% } else if (key == 'Zhihu' || key == 'Douban'){ %>
           <li><a href="<%= theme.social[key] %>" title="<%=key.trim()%>"><i class="fa iconfont icon-<%= key.toLowerCase() %>" aria-hidden="true"></i></a></li>
         <% } else {%>
-          <!-- <li><a href="<%= theme.social[key] %>" title="<%=key.trim()%>"><i class="fa fa-<%= key.toLowerCase() %>" aria-hidden="true"></i></a></li> -->
+          <li><a href="<%= theme.social[key] %>" title="<%=key.trim()%>"><i class="fa fa-<%= key.toLowerCase() %>" aria-hidden="true"></i></a></li>
         <% }%>
     <% }) %>
     </ul>
@@ -21,9 +21,7 @@
 
 
   <div class="container">
-      	<div class="row">
 
-	      <p> <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a> | Theme <a href="https://github.com/JingwangLi/hexo-theme-hiker" target="_blank">Hiker</a> </p>
 	      <!-- <p id="copyRightEn">Copyright &copy; <%= theme.since ||  (date(new Date(), 'YYYY')-1)%> - <%= date(new Date(), 'YYYY') %> <%= config.title || config.author %>. All Rights Reserved.</p> -->
 
         <!-- <div style="display: inline-block;"><p id="copyRightEn">Copyright &copy; <%= theme.since ||  (date(new Date(), 'YYYY')-1)%> - <%= date(new Date(), 'YYYY') %> <%= config.title || config.author %>&nbsp;&nbsp;&nbsp;</div>
@@ -36,6 +34,10 @@
 
         <div><p id="copyRightEn">Copyright &copy; <%= theme.since ||  (date(new Date(), 'YYYY')-1)%> - <%= date(new Date(), 'YYYY') %> <%= config.title || config.author %></div>
 
+          <div class="row">
+
+            <p> <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a> | Theme <a href="https://github.com/JingwangLi/hexo-theme-hiker" target="_blank">Hiker</a> </p>
+                      
 	      <% if (theme.show_busuanzi_view_counts){ %>
     		<p class="busuanzi_uv">
 				<%= __('site_uv') %> : <span id="busuanzi_value_site_uv"></span> |

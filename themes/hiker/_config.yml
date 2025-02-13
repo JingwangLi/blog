@@ -36,7 +36,7 @@ home_background_image:
   enable: true
   mode: image
   rolling: true
-  url: [css/images/moon.jpg]
+  url: [css/images/xiata.jpg]
 
 # css/images/fyenman.jpg, css/images/home2.jpg, css/images/home3.jpg https://source.unsplash.com/collection/954550/1920x1080
 
